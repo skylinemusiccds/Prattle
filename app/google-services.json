@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "818002168553",
+    "firebase_url": "https://chat-app-cccbc.firebaseio.com",
+    "project_id": "chat-app-cccbc",
+    "storage_bucket": "chat-app-cccbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818002168553:android:482772a25c7d1e9f29fe78",
+        "android_client_info": {
+          "package_name": "com.essam.kroubi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818002168553-m4p2tjq2t60d67hdhp8s2kmgqk7gfv6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.essam.kroubi",
+            "certificate_hash": "7aa6972f7c653468c072054505af20e9c8f0a55d"
+          }
+        },
+        {
+          "client_id": "818002168553-pn2fu006g137su4sm5h1mam1ab5mrcve.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.essam.kroubi",
+            "certificate_hash": "adcabf92748d6ce07f5cb0d841cda924760765a4"
+          }
+        },
+        {
+          "client_id": "818002168553-ddhp9k2avfibues98jng8m07tv4bm7nr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyjnsIweyxUrq7KhCZ28pFlYfLz39Nygg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818002168553-ddhp9k2avfibues98jng8m07tv4bm7nr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

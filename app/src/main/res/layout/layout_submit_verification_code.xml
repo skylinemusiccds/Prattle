@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_login"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/detect_phone_automatically"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/phone_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:text="+201019965971" />
+
+    <com.mukesh.OtpView
+        android:id="@+id/otp_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:enabled="true"
+        android:focusableInTouchMode="true"
+        android:inputType="number"
+        android:textColor="@color/colorPrimaryText"
+        app:itemCount="6"
+        app:itemHeight="40dp"
+        app:itemSpacing="10dp"
+        app:itemWidth="40dp"
+        app:lineColor="@color/colorAccent"
+        app:viewType="line" />
+
+    <TextView
+        android:id="@+id/enter_code_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/enter_6_digit_code"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/colorSecondaryText" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimaryTransparent"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/resend_code_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="15dp"
+            android:enabled="false"
+            android:text="@string/resend_sms"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/colorDisabledText"
+            app:drawableStartCompat="@drawable/ic_resend_disabled"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <cn.iwgang.countdownview.CountdownView
+            android:id="@+id/countdownView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:isHideTimeBackground="true"
+            app:isShowMinute="true"
+            app:isShowSecond="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:suffixGravity="bottom"
+            app:suffixTextColor="@color/colorSecondaryText"
+            app:suffixTextSize="16sp"
+            app:timeTextColor="@color/colorSecondaryText"
+            app:timeTextSize="15sp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

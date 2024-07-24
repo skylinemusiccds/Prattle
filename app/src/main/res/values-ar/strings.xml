@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">قروبي</string>
+    <string name="home_activity_title">قروبي</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="submit">تأكيد</string>
+    <string name="enter_verification_code">أدخل الرمز التأكيدي</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="we_will_send_code">سوف نقوم بإرسال رمز تأكيدي الى رقم الهاتف الخاص بك</string>
+    <string name="verify_code">تأكيد الرمز</string>
+    <string name="cancel">الغاء</string>
+    <string name="ok">حسنا</string>
+    <string name="please_wait">برجاء الانتظار..</string>
+    <string name="no_contacts">"لا يوجد مستخدمين في قائمة الاتصال الخاصة بك "</string>
+    <string name="sign_out">تسجيل الخروج</string>
+    <string name="msg_login_success">تم تسجيل الدخول بنجاح</string>
+    <string name="verify_phone_number">من فضلك أدخل رقم الهاتف!</string>
+    <string name="verify_sign_in_code">من فضلك أدخل الرمز التأكيدي</string>
+    <string name="verification_failed">رقم الهاتف غير صحيح</string>
+    <string name="chats">الدردشات</string>
+    <string name="status">الحالة</string>
+    <string name="calls">المكالمات</string>
+    <string name="msg_no_chat_yet">لا يوجد محادثات سابقة ، قم بارسال رسالة الآن لبدئ المحادثة</string>
+    <string name="type_a_message">اكتب رسالة</string>
+    <string name="document">مستند</string>
+    <string name="gallery">المعرض</string>
+    <string name="contact">جهة اتصال</string>
+    <string name="camera">كاميرا</string>
+    <string name="location">الموقع</string>
+    <string name="audio">مقطع صوتي</string>
+    <string name="select_contact">تحديد جهة اتصال</string>
+    <string name="yesterday">أمس</string>
+    <string name="settings">الاعدادات</string>
+    <string name="profile">الصفحة الشخصية</string>
+    <string name="send_verification_code">أرسل الرمز التأكيدي</string>
+    <string name="invalid_phone_number">رقم الهاتف غير صحيح</string>
+    <string name="invalid_verification_code">الرمز التأكيدي غير صحيح</string>
+    <string name="network_error_msg">حدث خطأ ما، من فضلك أعد المحاولة!</string>
+    <string name="typing">يقوم بالكتابة…</string>
+    <string name="online">متصل الآن</string>
+    <string name="loading">جار التحميل…</string>
+    <string name="check_network">تأكد من الاتصال بالانترنت!</string>
+    <string name="phone_digits">0123456789</string>
+    <string name="enter_your_phone_number">أدخل رقم الهاتف</string>
+    <string name="detect_phone_automatically">سوف نقوم بإرسال رمز تأكيدي الى رقم الهاتف الخاص بك</string>
+    <string name="enter_6_digit_code">أدخل الرمز التأكيدي</string>
+    <string name="verify">التحقق من %1$s</string>
+    <string name="verify_phone_failed">خطأفي التحقق من رقم الهاتف!</string>
+    <string name="resend_sms">أعد إرسال رسالة SMS</string>
+    <string name="intro">intro</string>
+    <string name="first_intro_title">أهلا بك في قروبي</string>
+    <string name="first_intro_description">استمتع بتجربة جديدة للمحادثات السريعة</string>
+    <string name="second_intro_title">تواصل</string>
+    <string name="second_intro_description">ابحث عن أحد جهات اتصالك المسجلين وارسال لهم العديد من الرسائل والصور</string>
+    <string name="third_intro_title">هيا نبدأ</string>
+    <string name="third_intro_description">ماذا تنتظر؟ سجل الآن بطريقة سهلة جدا لتبدأ</string>
+    <string name="profile_info">بيانات الصفحة الشخصية</string>
+    <string name="please_provide_your_name_and_an_optional_profile_photo">من فضلك أدخل اسمك وصورتك الشخصية</string>
+    <string name="type_your_name_here">اكتب اسمك هنا</string>
+    <string name="next">التالي</string>
+    <string name="updated_successfully">تم التحديث بنجاح!</string>
+    <string name="upload_profile_failed">حدث خطأ أثناء تحميل الصورة ، من فلك حاول مرة أخرى!</string>
+    <string name="no_chat_yet">لا يوجد محادثات سابقة، </string>
+    <string name="name">الإسم</string>
+    <string name="edit_name">تعديل الإسم</string>
+    <string name="edit_status">تعديل الحالة</string>
+    <string name="add_your_name">أدخل اسمك</string>
+    <string name="current_status">حالتك الآن:</string>
+    <string name="what_are_you_thinking_of">ما الذي تفكر به ؟</string>
+    <string name="account">الحساب</string>
+    <string name="chatss">المحادثات</string>
+    <string name="theme_wallpapers_chat_history">Theme, Wallpapers, Chat history</string>
+    <string name="privacy_security_change_number">Privacy, security, change number</string>
+    <string name="faq_contact_us_privacy_policy">FAQ, contact us, privacy policy</string>
+    <string name="storage_and_data">Storage and data</string>
+    <string name="network_usage_auto_download">Network usage, auto-download</string>
+    <string name="message_group_call_tones">Message, group, call tones</string>
+    <string name="help">Help</string>
+    <string name="notifications">Notifications</string>
+    <string name="type_message">قم بإدخال رسالتك</string>
+    <string name="photo">صورة</string>
+    <string name="enter_name">أدخل اسمك</string>
+    <string name="Sync_contacts">تحديث جهة الاتصال</string>
+    <string name="welcome">مرحبا</string>
+
+    <array name="status_list">
+        <item>متاح</item>
+        <item>مشغول</item>
+        <item>مع الأصدقاء</item>
+        <item>في المدرسة</item>
+        <item>في السنما</item>
+        <item>في العمل</item>
+        <item>البطارية على وشك النفاذ</item>
+        <item>في اجتماع</item>
+        <item>في الجيم</item>
+        <item>نائم</item>
+        <item>مكالمات الطوارئ فقط</item>
+    </array>
+
+</resources>

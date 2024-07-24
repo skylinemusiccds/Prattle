@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#AD000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#3CB881</color>
+
+    <color name="colorMainBackGround">#23050505</color>
+
+    <color name="colorPrimaryText">#D9FFFFFF</color>
+    <color name="colorSecondaryText">#99FFFFFF</color>
+    <color name="colorDisabledText">#66FFFFFF</color>
+
+    <color name="colorOnBoardingBackground">#000000</color>
+    <color name="colorVerificationCardBackGround">#252525</color>
+    <color name="colorVerificationLightBackGround">#252525</color>
+
+    <color name="colorLoadingDialogBackGround">#66FFFFFF</color>
+    <color name="colorSeparatorBackground">#DF728E73</color>
+
+    <color name="colorSendMessageBackground">#AB2C2C2C</color>
+    <color name="outgoing_background_color">#303DDC84</color>
+    <color name="receiving_background_color">#AB2C2C2C</color>
+
+    <color name="colorInfoIcons">#99FFFFFF</color>
+
+    <color name="colorMain">#075E54</color>
+    <color name="colorMainLight">#128C7E</color>
+
+    <color name="colorPrimaryFade">#A616786D</color>
+    <color name="colorPrimaryWithOpacity">#303DDC84</color>
+    <color name="colorPrimaryTransparent">#103DDC84</color>
+    <color name="colorMainWithOpacity">#991D255E</color>
+
+    <color name="chat_background">#ECE5DD</color>
+    <color name="outgoing_chat_bubble">#DCF8C6</color>
+
+
+    <color name="disabledColor">#A9EBFFE3</color>
+    <color name="colorBlueLight">#0F4AFF</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="light_gray">#D5D6D6</color>
+    <color name="dark_gray">#757575</color>
+    <color name="error_red_color">#AE0109</color>
+    <color name="error_red_color_with_opacity">#20AE0109</color>
+
+
+</resources>

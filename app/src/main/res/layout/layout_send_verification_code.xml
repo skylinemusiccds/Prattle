@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_sms"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="@string/we_will_send_code"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="15sp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/phoneNumberCl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/shape_login_et_gb"
+        android:layoutDirection="ltr">
+
+        <EditText
+            android:id="@+id/et_phone_number"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:autofillHints="@string/phone_number"
+            android:background="@null"
+            android:digits="@string/phone_digits"
+            android:gravity="center"
+            android:hint="@string/phone_number"
+            android:imeOptions="actionDone"
+            android:inputType="phone"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimaryText"
+            android:textColorHint="@color/colorSecondaryText"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ccp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/ccp"
+            android:layout_width="80dp"
+            android:layout_height="0dp"
+            android:layout_margin="6dp"
+            android:gravity="center"
+            app:ccpDialog_backgroundColor="@color/colorVerificationCardBackGround"
+            app:ccpDialog_textColor="@color/colorPrimaryText"
+            app:ccp_arrowColor="@color/colorAccent"
+            app:ccp_arrowSize="24dp"
+            app:ccp_autoDetectCountry="true"
+            app:ccp_autoFormatNumber="false"
+            app:ccp_contentColor="@color/colorPrimaryText"
+            app:ccp_countryAutoDetectionPref="SIM_NETWORK_LOCALE"
+            app:ccp_showNameCode="false"
+            app:ccp_showPhoneCode="true"
+            app:ccp_textGravity="RIGHT"
+            app:ccp_textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/et_phone_number"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/et_phone_number"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/light_gray"
+            app:layout_constraintBottom_toBottomOf="@+id/et_phone_number"
+            app:layout_constraintStart_toEndOf="@+id/ccp"
+            app:layout_constraintTop_toTopOf="@+id/et_phone_number"
+            tools:ignore="ContentDescription" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btn_send_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/ripple_effect_btn_bg"
+        android:elevation="4dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/send_verification_code"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/transparent"/>
+</LinearLayout>
